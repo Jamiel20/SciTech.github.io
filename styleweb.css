@@ -1,0 +1,293 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', san-serif;
+	overflow-x: hidden;
+}
+.slider
+{
+	position: relative;
+	width: 500%;
+	animation: animate 15s linear infinite;
+}
+.slide
+{
+	position: relative;
+	height: calc(100vh - 50px);
+	float: left;
+	width: 20%;
+	background-size: cover;
+}
+.slide:nth-child(1)
+{
+	background-image: url(SciTech/sh/sh1.png);
+	background-attachment: fixed;
+}
+.slide:nth-child(2)
+{
+	background-image: url(SciTech/sh/sh2.png);
+	background-attachment: fixed;
+}
+.slide:nth-child(3)
+{
+	background-image: url(SciTech/sh/sh3.png);
+	background-attachment: fixed;
+}
+@keyframes animate
+{
+	0%
+	{
+		left: 0;
+	}
+	20%
+	{
+		left: -100%;
+	}
+	30%
+	{
+		left: -100%;
+	}
+	50%
+	{
+		left: -200%;
+	}
+}
+.container
+{
+	width: 100%;
+	position: relative;
+}
+.banner
+{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: url(bg.png);
+	background-size: cover;
+}
+header
+{
+	position: sticky;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	background: #8c52ff;
+	padding: 0 100px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.logo
+{
+	color: white;
+	text-decoration: none;
+	font-weight: 800px;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+ul
+{
+	display: flex;
+	margin: 0;
+	padding: 0;
+	height: 50px;
+}
+ul li
+{
+	list-style: none;
+	line-height: 50px;
+}
+ul li a
+{
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+	padding: 0 15px;
+}
+ul li.active,
+ul li:hover
+{
+	background: #2196f3;
+	color: white;
+}
+.content
+{
+	width: 100%;
+	padding-top: 0px;
+	padding-left: 220px;
+	padding-right: 220px;
+	box-sizing: border-box;
+	color: white;
+}
+.content h2
+{
+	margin: 0px;
+	padding: 0px;
+	font-size: 48px;
+	text-align: center;
+}
+.parallax
+{
+		background: url(SciTech/p1.png);
+		background-size: cover;
+		background-attachment: fixed;
+		height: 500px;
+		margin: 0px ;
+		padding: 0px;
+		text-align: center;
+}
+.parallax2
+{
+		background: url(SciTech/p2.png);
+		background-size: cover;
+		background-attachment: fixed;
+		height: 500px;
+		margin: 0px ;
+		padding: 0px;
+		text-align: center;
+}
+.parallax3
+{
+		background: url(SciTech/p3.png);
+		background-size: cover;
+		background-attachment: fixed;
+		height: 500px;
+		margin: 0px ;
+		padding: 0px;
+		text-align: center;
+}
+.parallax4
+{
+		background: url(SciTech/p4.png);
+		background-size: cover;
+		background-attachment: fixed;
+		height: 500px;
+		margin: 0px ;
+		padding: 0px;
+		text-align: center;
+}
+.parallax5
+{
+		background: url(SciTech/p5.png);
+		background-size: cover;
+		background-attachment: fixed;
+		height: 500px;
+		margin: 0px ;
+		padding: 0px;
+		text-align: center;
+}
+.parallax6
+{
+		background: url(SciTech/p6.png);
+		background-size: cover;
+		background-attachment: fixed;
+		height: 500px;
+		margin: 0px ;
+		padding: 0px;
+		text-align: center;
+}
+.parallax7
+{
+		background: url(SciTech/p7.png);
+		background-size: cover;
+		background-attachment: fixed;
+		height: 500px;
+		margin: 0px ;
+		padding: 0px;
+		text-align: center;
+}
+.parallax8
+{
+		background: url(SciTech/p8.png);
+		background-size: cover;
+		background-attachment: fixed;
+		height: 500px;
+		margin: 0px ;
+		padding: 0px;
+		text-align: center;
+}
+.parallax9
+{
+		background: url(SciTech/p9.png);
+		background-size: cover;
+		background-attachment: fixed;
+		height: 500px;
+		margin: 0px ;
+		padding: 0px;
+		text-align: center;
+}
+.parallax10
+{
+		background: url(SciTech/p10.png);
+		background-size: cover;
+		background-attachment: fixed;
+		height: 500px;
+		margin: 0px ;
+		padding: 0px;
+		text-align: center;
+}
+.parallax11
+{
+		background: url(SciTech/p11.png);
+		background-size: cover;
+		background-attachment: fixed;
+		height: 500px;
+		margin: 0px ;
+		padding: 0px;
+		text-align: center;
+}
+.parallax12
+{
+		background: url(SciTech/p12.png);
+		background-size: cover;
+		background-attachment: fixed;
+		height: 500px;
+		margin: 0px ;
+		padding: 0px;
+		text-align: center;
+}
+.parallax13
+{
+		background: url(SciTech/p13.png);
+		background-size: cover;
+		background-attachment: fixed;
+		height: 500px;
+		margin: 0px ;
+		padding: 0px;
+		text-align: center;
+}
+.content h1
+{
+	line-height: 30px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: grey;
+	font-family: Poppins;
+}
+.content h3
+{
+	line-height: 30px;
+	font-size: 15px;
+	letter-spacing: 1px;
+	color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
